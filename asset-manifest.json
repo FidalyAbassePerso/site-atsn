@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/site-atsn/static/css/main.3dcebc3d.chunk.css",
+    "main.js": "/site-atsn/static/js/main.ce18fbcf.chunk.js",
+    "main.js.map": "/site-atsn/static/js/main.ce18fbcf.chunk.js.map",
+    "runtime-main.js": "/site-atsn/static/js/runtime-main.9fe4a197.js",
+    "runtime-main.js.map": "/site-atsn/static/js/runtime-main.9fe4a197.js.map",
+    "static/js/2.dbb9796d.chunk.js": "/site-atsn/static/js/2.dbb9796d.chunk.js",
+    "static/js/2.dbb9796d.chunk.js.map": "/site-atsn/static/js/2.dbb9796d.chunk.js.map",
+    "static/js/3.018bb475.chunk.js": "/site-atsn/static/js/3.018bb475.chunk.js",
+    "static/js/3.018bb475.chunk.js.map": "/site-atsn/static/js/3.018bb475.chunk.js.map",
+    "index.html": "/site-atsn/index.html",
+    "static/css/main.3dcebc3d.chunk.css.map": "/site-atsn/static/css/main.3dcebc3d.chunk.css.map",
+    "static/js/2.dbb9796d.chunk.js.LICENSE.txt": "/site-atsn/static/js/2.dbb9796d.chunk.js.LICENSE.txt",
+    "static/media/ATSN.be029a84.jpg": "/site-atsn/static/media/ATSN.be029a84.jpg",
+    "static/media/ATSN_logo.dc09dc8d.png": "/site-atsn/static/media/ATSN_logo.dc09dc8d.png",
+    "static/media/AbasseLogo.8ee32f20.png": "/site-atsn/static/media/AbasseLogo.8ee32f20.png",
+    "static/media/logo.6ce24c58.svg": "/site-atsn/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9fe4a197.js",
+    "static/js/2.dbb9796d.chunk.js",
+    "static/css/main.3dcebc3d.chunk.css",
+    "static/js/main.ce18fbcf.chunk.js"
+  ]
+}
