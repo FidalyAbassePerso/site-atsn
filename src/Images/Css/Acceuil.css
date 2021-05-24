@@ -1,11 +1,10 @@
 #container { 
-    height: 100vh;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
   }
   
   #center {
     margin: 0;
-    position: absolute;
-    top: 18%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
   }

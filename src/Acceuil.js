@@ -3,7 +3,6 @@ import { withStyles } from '@material-ui/core';
 import background from './Images/ATSN.jpg'
 import title from './Images/ATSN_logo.png'
 import Paper from '@material-ui/core/Paper';
-import abasse from "./Images/AbasseLogo.png";
 import Grid from '@material-ui/core/Grid';
 import Avatar from '@material-ui/core/Avatar';
 import './Images/Css/Acceuil.css'
@@ -11,6 +10,7 @@ import Fade from '@material-ui/core/Grow';
 import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 import { animated, useSpring } from "react-spring";
 import ParralaxComponent from "./ParralaxComponent";
+import GalleryImages from "./GalleryImages";
 
 
 
@@ -20,10 +20,14 @@ const styles = {
         background: `url(${background})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
-        height: "400vh"
+        backgroundRepeat: "np-repeat",
     },
-    title: {
-        width: "50%"
+    footer: {
+        textAlign: "center",
+        color: "white",
+        bottom: 0,
+        display: "flex",
+        flexDirection: "column",
     }
 };
 
@@ -50,8 +54,13 @@ class Acceuil extends React.Component {
         return (
             <div className={this.props.classes.acceuil}>
                 <ParralaxComponent />
-                <center><iframe style={{width: "50%",height:"60vh"}} class="embed-responsive-item" src="https://www.youtube.com/embed/C0X5lbgABRY" frameborder="0" allow="accelerometer; autoplay; 
-clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+                <center><iframe style={{width: "70%",height:"80vh",marginTop: "100vh"}} className="embed-responsive-item" src="https://www.youtube.com/embed/C0X5lbgABRY" frameBorder="0" allow="accelerometer; autoplay; 
+clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe></center>
+                <GalleryImages />
+                <footer className={this.props.classes.footer} >
+                    <p>© 2021 Copyright: DreamVeloper Studio</p>
+                </footer>
+                
             </div>
             
         )

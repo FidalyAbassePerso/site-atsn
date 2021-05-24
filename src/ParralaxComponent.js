@@ -30,7 +30,7 @@ const ParralaxImage = () => {
   return (
     <div ref={ref} id="container">   
         <animated.div id="center" style={{transform: offset.interpolate(calc)}}>
-            <center><img style={{width:"70%"}} src={title}/></center>
+            <img style={{width:"50%"}} src={title}/>
         </animated.div>
     </div>
   );
